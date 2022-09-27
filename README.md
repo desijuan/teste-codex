@@ -26,7 +26,7 @@ To try it with different rectangles open `~/q2/app.kt` and modify lines 36 and 4
 
     val R = Rect(i1, j1, i2, j2)
 
-where (i1, j1) and (i2, j2) are the bottom-left and top-right corners respectively. So, the program expects that i1<=i2 and j1<=j2. For example Rect(0, 0, 2, 3) is a valid rectangle and Rect(2, 3, 0, 0) is not. The program does not check validity of the rectangles, so please make shure to enter valid values for the bottom-left and top-right corners when testing.
+where (i1, j1) and (i2, j2) are the bottom-left and top-right corners respectively. So, the program expects that i1<=i2 and j1<=j2. For example Rect(0, 0, 2, 3) is a valid rectangle and Rect(2, 3, 0, 0) is not. The program does not check validity of the rectangles, so please make sure to enter valid values for the bottom-left and top-right corners when testing.
 
 ## 3) Compute the area of intersection between two rectangles
 
@@ -39,7 +39,7 @@ To try it with different rectangles open `~/q3/app.kt` and modify lines 37 and 4
 
 ## 4) Simple Todo List
 
-For this exercise I provide links to my portfolio project Leger, which is a web app to track shared expenses between groups of persons. It consists of an Express server in the backend and a React client in the frontend. The server and client are hosted in different platforms and communicate via HTTP.
+For this exercise I provide links to my portfolio project Ledger, which is a web app to track shared expenses between groups of persons. It consists of an Express server in the backend and a React client in the frontend. The server and client are hosted in different platforms and communicate via HTTP.
 
 - Server: <https://github.com/desijuan/ledger-server>
 - Client: <https://github.com/desijuan/ledger-client>
