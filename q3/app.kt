@@ -30,15 +30,17 @@ fun computeIntersection (R1: Rect, R2: Rect): Int {
   return count
 }
 
-fun main() {
+fun main(args: Array<String>) {
+
+  val rectangles: Array<Int> = args.map { it.toInt() }.toTypedArray()
 
   println()
 
-  val R1 = Rect(1, 0, 3, 1)
+  val R1 = Rect(rectangles[0], rectangles[1], rectangles[2], rectangles[3])
   print("R1: ")
   R1.print()
 
-  val R2 = Rect(0, 1, 5, 5)
+  val R2 = Rect(rectangles[4], rectangles[5], rectangles[6], rectangles[7])
   print("R2: ")
   R2.print()
 
@@ -46,7 +48,7 @@ fun main() {
 
   val intersectionArea: Int = computeIntersection(R1, R2)
 
-  println(intersectionArea)
+  println("area: $intersectionArea")
 
 }
 
